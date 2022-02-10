@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ⓤ UNIVERSITARIO PLAY Ⓤ</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon-play.png">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b3e109e0ec.js" crossorigin="anonymous"></script>
+    <style>
+        .encabezado {position: relative; padding-top: 35px; align-content: center; text-align: center; color: #752b2a; font-size: 35px; font-weight: bolder; font-family: 'Oswald', sans-serif; font-kerning: none;}
+        #descargar-app-responsive {display: none;}
+        #btn-playstore2 {display: none;}
+        #btn-playstore1 {width: 35%; float: right;}
+        .boton-playstore {width: 80%; position: relative; display: grid; grid-template-columns: repeat(2, 1fr); margin-top: 25px; margin-left: auto; margin-right: auto;}
+        .contenido-principal p {font-size: 28px; font-weight:400; margin-right: auto; margin-left: auto; color: #752b2a; text-align: center; margin-bottom: 45px;}
+        @media screen and (max-width:800px) {
+            header {position: fixed;}
+            .encabezado {font-size: 25px; margin: 0 auto;}
+            .boton-playstore {display: none;}
+            #descargar-app-responsive {width: 50%; display: block; position: relative; margin: 0 auto; align-items: center;}
+            #btn-playstore1 {display: none;}
+            #btn-playstore2 {width: 50%; display: block; position: relative; margin: 5px auto; align-items: center;}
+            .contenido-principal p {font-size: 18px; margin-bottom: 15px;}
+        }
+        @font-face {
+        font-family: MyCustomFont;
+        src: url("fonts/Third_Rail_-_Demo.eot")
+        }
+        @font-face {
+        font-family: MyCustomFont;
+        src: url("fonts/Third_Rail_-_Demo.ttf")
+        }
+        @font-face {
+            font-family: MyCustomFont;
+            src: url('fonts/third_rail_-_demo-webfont.woff2') format('woff2'),
+                 url('fonts/third_rail_-_demo-webfont.woff') format('woff');
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section class="logo">
+                <div id="logo-container">
+                    <a href="index.html"><img src="img/logo.svg" alt="logo-oficial" height="45px"></a>
+                </div>
+                </section>
+                <section class="menu-header">
+                <div id="nav-header">
+                <input type="checkbox" id="responsive">
+                <label for="responsive" class="menu-responsive"><i class="fas fa-ellipsis-v"></i></label>
+                    <ul class="show">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="beneficios.html">Beneficios</a></li>
+                        <li><a href="#" class="current">Descargar APP</a></li>
+                        <li><a href="login.html">Iniciar sesión</a></li>
+                        <li><a href="error.html">Universo Crema</a></li>
+                    </ul>
+                </div>
+                </section>
+    </header>
+    <main>
+        <div class="contenido-principal">
+        <div class="encabezado"><h2>LA PLATAFORMA QUE TODO CREMA DEBE TENER</h2></div>
+        <div class="boton-playstore">
+            <div style="margin-top: 390px;"><p style="text-align: right; margin-bottom: 1px; line-height: 20px; font-family: 'MyCustomFont';">DESCARGA UNIVERSITARIO PLAY</p><br>
+            <p style="text-align: right; margin-bottom: 15px; line-height: 20px;">Vive toda la emoción como si estuvieras adentro.</p>
+            <a href="https://play.google.com/store/apps/details?id=pe.universitarioplay" target="new">
+            <img id="btn-playstore1" src="img/boton-playstore.png"></a></div>
+            <img id="descargar-app-full" src="img/descargar-app.png">
+        </div>
+       
+        <!-- Aquí empieza el bloque responsive -->
+        <img id="descargar-app-responsive" src="img/descargar-app-responsive.png">
+        <a href="https://play.google.com/store/apps/details?id=pe.universitarioplay" target="new"><img id="btn-playstore2" src="img/boton-playstore.png"></a>
+        <!-- Aquí termina el bloque responsive -->
+
+        <p>Disfrútalo donde quieras y cuando quieras con la aplicación oficial para teléfonos celulares.<br>
+            La primera plataforma 24/7 sobre Universitario de Deportes.<br>
+            Contenidos nuevos todas las semanas.
+        </p>
+        </div>
+    </main>        
+    <footer>
+        <div class="footer-completo">
+            <div class="box1">
+                <a href="https://www.universitarioplay.pe/terminos-y-condiciones"><p>Términos de Uso</p></a>
+                <a href="cookies.html" target="new"><p>Política de cookies</p></a>
+                <a href="faq.html" target="new"><p>Preguntas Frecuentes</p></a>
+                <a href="https://tiendacrema.pe/librodereclamaciones" target="new"><p>Libro de reclamaciones</p></a>
+            </div>
+            <div class="box2">
+                <figure><a href="https://universitario.pe/" target="new"><img src="img/Universitario_de_Deportes.png" height="60px" alt="universitario-footer"></a></figure> 
+            </div>
+            <div class="box3">
+                <p>SÍGUENOS</p>
+                <ul>
+                    <li><a href="https://www.facebook.com/universitarioplay" target="new"><img alt="logo-fb" src="img/fb.svg"></a></li>
+                    <li><a href="https://twitter.com/Uplay1924" target="new"><img alt="logo-tw" src="img/tw.svg"></a></li>
+                    <li><a href="https://www.instagram.com/uplay1924/" target="new"><img alt="logo-ig" src="img/ig.svg"></a> </li>
+                </ul>
+                </div>
+        </div>
+        <div class="grupo-2">
+            <small style="line-height: 25px;">Todos de los derechos reservados © 2021 | <b>Club Universitario de Deportes</b><br>
+            <i>Diseñado por @jpgalvezc</i></small>
+        </div>
+    </footer>
+</body>
+</html>

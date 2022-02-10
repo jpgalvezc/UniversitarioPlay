@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ⓤ UNIVERSITARIO PLAY Ⓤ</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon-play.png">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b3e109e0ec.js" crossorigin="anonymous"></script>
+    <style>
+        .register {position:fixed; bottom: 165px; right: 55px; text-transform: uppercase;}
+        .encabezado {position: relative; padding-top: 35px; align-content: center; text-align: center; color: #752b2a; font-size: 35px; font-weight: bolder; font-family: 'Oswald', sans-serif; font-kerning: none;}
+        .register:hover {background-color: #3f3c3b;}
+        .register1 {display: none;}
+        .beneficio1, .beneficio2, .beneficio3, .beneficio4 {margin: auto auto;}
+        .beneficios-responsive {display: none;}
+        .encabezado {padding-bottom: 65px;}
+        .frase {width: 30%; justify-content: center; margin: 0 auto;}
+        .frase p {text-align: center; color: #7C2629; font-size: 20px;}
+        .linea-frase {display: flex; position: relative; width: 100%; margin: 50px auto; justify-content: center;}
+        @media screen and (max-width:800px) {
+            .encabezado {font-size: 28px}
+            header {position: fixed;}
+            .register {display: none;}
+            .register1 {display:flex; background-color: #7C2629; width: 155px; height: 45px; line-height: 45px; border-radius: 10px; margin-bottom: 25px; margin-left: auto; margin-right: auto; padding-left: 5px;}
+            .register1 a {color: #FFFEF4; text-decoration: none; cursor: pointer; font-size: 22px; text-align: center;}
+            .beneficios-full {display: none;}
+            .beneficios-responsive {display:block; margin: 0 auto;}
+            .slider {margin: auto; padding: 0; width: 100%; overflow: hidden;}
+            .slider ul {display: flex; width: 300%; animation: cambio 10s infinite alternate linear;}
+            .slider li {list-style: none;}
+            .frase {width: 80%; justify-content: center; margin: 0 auto;}
+            .frase p {text-align: center; color: #7C2629; font-size: 18px;}
+            .linea-frase {display: flex; position: relative; width: 80%; margin: 10px auto; justify-content: center;}
+            @keyframes cambio {
+                0% {margin-left: 0;} 30% {margin-left: 0;} 33% {margin-left: -100%;} 63% {margin-left: -100%} 66% {margin-left: -200%} 100% {margin-left:-200%}
+            }
+        }
+        @font-face {
+        font-family: MyCustomFont;
+        src: url("fonts/Third_Rail_-_Demo.eot")
+        }
+        @font-face {
+        font-family: MyCustomFont;
+        src: url("fonts/Third_Rail_-_Demo.ttf")
+        }
+        @font-face {
+            font-family: MyCustomFont;
+            src: url('fonts/third_rail_-_demo-webfont.woff2') format('woff2'),
+                 url('fonts/third_rail_-_demo-webfont.woff') format('woff');
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <section class="logo">
+            <div id="logo-container">
+            <a href="index.html"><img src="img/logo.svg" alt="logo-oficial" height="45px"></a>
+            </div>
+            </section>
+            <section class="menu-header">
+                <div id="nav-header">
+                <input type="checkbox" id="responsive">
+                <label for="responsive" class="menu-responsive"><i class="fas fa-ellipsis-v"></i></label>
+                    <ul class="show">
+                        <li><a href="index.html" >Inicio</a></li>
+                        <li><a href="#" class="current">Beneficios</a></li>
+                        <li><a href="app-store.html">Descargar APP</a></li>
+                        <li><a href="login.html">Iniciar sesión</a></li>
+                        <li><a href="error.html">Universo Crema</a></li>
+                    </ul>
+                </div>
+            </section>
+    </header>
+    <main>
+        <div class="register">
+            <a href="registro.html" class="boton">Nuevo registro</a>
+        </div>
+        <div class="contenido-principal">
+        <div class="encabezado"><h2>TODO EL CLUB EN UNA PLATAFORMA EXCLUSIVA</h2></div>
+        <div class="beneficios-full">
+        <table class="beneficio1" style="margin-right: auto; margin-right: auto;" width="70%">
+            <td width="50%"><center><img src="img/beneficios/movil1-transparente.png" height="550px"></center></td>
+            <td><p style="color: #7C2629; font-family: MyCustomFont; text-align: left; font-size: 36px;">DISFRUTA DE CONTENIDOS EXCLUSIVOS</p><br><br>
+               <p style="color: #7C2629; font-size: 20px;">- Transmisiones en vivo.<br>
+                - Conferencias.<br>
+                - Documentales.<br>
+                - Juegos.<br>
+                - Entrevistas.<br>
+                - Eventos exclusivos.<br>
+                - Previas.<br>
+                y más...</p></td>
+        </table>
+        <br><br><br>
+        <div class="linea-frase"><img src="img/linea-frase.png"></div>
+        <div class="frase"><p><em>"Ante todo Dios, la patria, la familia y la U".</em><br>Rafael Quirós, ex-jugador y ex-presidente del club.</p></div>
+        <div class="linea-frase"><img src="img/linea-frase-reves.png"></div>
+        <br><br><br>
+       <table class="beneficio2" style="margin-right: auto; margin-right: auto;" width="70%">
+            <td width="50%" ><p style="color: #7C2629; font-size: 36px; font-family: MyCustomFont; text-align: left;">CONECTATE EN TODO LUGAR</p><br><br>
+                <p style="color: #7C2629; font-size: 20px;">Universitario Play es totalmente adaptable a tu estilo. Ingresa a través de nuestra web o descarga nuestra aplicación oficial para sistemas Android.</p></td>
+            <td><center><img src="img/beneficios/movil4-transparente.png" width="550px"></center></td>
+        </table>
+        <br><br><br>
+        <div class="linea-frase"><img src="img/linea-frase.png"></div>
+        <div class="frase"><p><em>"La U es más grande que sus problemas".</em><br>Fernando Cuéllar, ex-jugador y ex-técnico del club.</p></div>
+        <div class="linea-frase"><img src="img/linea-frase-reves.png"></div>
+        <br><br><br>
+        <table class="beneficio3" style="margin-right: auto; margin-right: auto;" width="70%">
+            <td width="50%"><center><img src="img/parnerts/beat.png" width="30%"><br><br><img src="img/parnerts/Konami.png" width="30%"><br><br><img src="img/parnerts/pagoefectivo.png" width="30%"></center></td>
+            <td><p style="color: #7C2629; font-family: MyCustomFont; text-align: left; font-size: 36px;">PREMIOS DE NUESTROS PARTNERS COMERCIALES</p><br><br>
+               <p style="color: #7C2629; font-size: 20px;">Escoge una de nuestras suscripciones y desde el primer día podrás participar de sorteos, promociones, descuentos y anuncios sólo para los miembros de Universitario Play.</p></td>
+        </table>
+        <br><br><br>
+        <div class="linea-frase"><img src="img/linea-frase.png"></div>
+        <div class="frase"><p><em>"¡Contra todo y contra todos!".</em><br>Ángel Cappa, ex-técnico del club.</p></div>
+        <div class="linea-frase"><img src="img/linea-frase-reves.png"></div>
+        <br><br><br>
+        <table class="beneficio4" style="margin-right: auto; margin-right: auto;" width="70%">
+            <td><p style="color: #7C2629; font-size: 36px; font-family: MyCustomFont; text-align: left;">ACTIVIDADES PENSADAS PARA NUESTRA COMUNIDAD</p><br><br>
+                <p style="color: #7C2629; font-size: 20px;">Si eres miembro premium de nuestro contenido, podrás participar de distintas actividades pensadas para el hincha crema y su familia.</p></td>
+            <td width="50%"><center><img src="img/eventos-exclusivos.jpg" width="450px"></center></td>
+        </table>
+        </div>
+
+       <!-- Aquí empieza el bloque responsive -->
+
+       <div class="beneficios-responsive">
+        <table class="beneficio01" style="margin-right: auto; margin-right: auto;" width="90%">
+            <tr><center><img src="img/beneficios/movil1-transparente.png" height="350px"></center></tr>
+            <tr><p style="color: #7C2629; font-family: MyCustomFont; text-align: center; font-size: 36px;">DISFRUTA DE CONTENIDOS EXCLUSIVOS</p><br>
+               <p style="color: #7C2629; font-size: 20px; margin: 0 10px; text-align: center;">Transmisiones en vivo. Conferencias. Documentales. Juegos. Entrevistas. Eventos exclusivos Previas y más...</p><br><br></tr>
+        </table>
+        <br>
+        <div class="linea-frase"><img src="img/linea-frase.png" width="110%"></div>
+        <div class="frase"><p><em>"Ante todo Dios, la patria, la familia y la U".</em><br>Rafael Quirós, ex-jugador y ex-presidente del club.</p></div>
+        <div class="linea-frase"><img src="img/linea-frase-reves.png" width="110%"></div>
+        <br>
+        <table class="beneficio02" style="margin-right: auto; margin-right: auto;" width="90%">
+            <tr><center><img src="img/beneficios/movil4-transparente.png" width="90%"></center></tr>
+            <tr><p style="color: #7C2629; font-size: 36px; font-family: MyCustomFont; text-align: center;" width="90%">CONECTATE EN TODO LUGAR</p><br>
+                <p style="color: #7C2629; font-size: 20px; text-align: center; margin: 0 10px;" width="90%">Universitario Play es totalmente adaptable a tu estilo. Ingresa a través de nuestra web o descarga nuestra aplicación oficial para sistemas Android.</p><br><br></tr>
+        </table>
+        <br>
+        <div class="linea-frase"><img src="img/linea-frase.png" width="110%"></div>
+        <div class="frase"><p><em>"La U es más grande que sus problemas".</em><br>Fernando Cuéllar, ex-jugador y ex-técnico del club.</p></div>
+        <div class="linea-frase"><img src="img/linea-frase-reves.png" width="110%"></div>
+        <br>
+        <table class="beneficio03" style="margin-right: auto; margin-right: auto;" width="90%">
+            <tr><center>
+                <div class="slider">
+                <ul>
+                <li><img src="img/parnerts/beat.png" id="slide1" width="40%"></li>
+                <li><img src="img/parnerts/Konami.png" id="slide2" width="40%"></li>
+                <li><img src="img/parnerts/pagoefectivo.png" id="slide3" width="40%"></li>
+                </ul>
+                </div>
+                </center><br></tr>
+            <tr><p style="color: #7C2629; font-size: 36px; font-family: MyCustomFont; text-align: center; margin: 0 10px;" width="90%">PREMIOS DE NUESTROS PARTNERS COMERCIALES</p><br>
+                <p style="color: #7C2629; font-size: 20px; text-align: center; margin: 0 10px;" width="90%">Escoge una de nuestras suscripciones y desde el primer día podrás participar de sorteos, promociones, descuentos y anuncios sólo para los miembros de Universitario Play.</p><br><br></tr>
+        </table>
+        <br>
+        <div class="linea-frase"><img src="img/linea-frase.png" width="110%"></div>
+        <div class="frase"><p><em>"¡Contra todo y contra todos!".</em><br>Ángel Cappa, ex-técnico del club.</p></div>
+        <div class="linea-frase"><img src="img/linea-frase-reves.png" width="110%"></div>
+        <br>
+        <table class="beneficio04" style="margin-right: auto; margin-right: auto;" width="90%">
+            <tr><center><img src="img/eventos-exclusivos.jpg" width="90%"></center></tr>
+            <tr><p style="color: #7C2629; font-family: MyCustomFont; text-align: center; font-size: 36px;">ACTIVIDADES PENSADAS PARA NUESTRA COMUNIDAD</p><br>
+               <p style="color: #7C2629; font-size: 20px; margin: 0 10px; text-align: center;">Si eres miembro premium de nuestro contenido, podrás participar de distintas actividades pensadas para el hincha crema y su familia.</p></tr>
+        </table>
+        </div>
+        <br><br>
+        </div>
+        <div class="register1">
+            <a href="registro.html" class="boton">Nuevo registro</a>
+        </div>
+        <!-- Aquí termina el bloque responsive -->
+
+    </main>
+    <footer>
+        <div class="footer-completo">
+            <div class="box1">
+                <a href="https://www.universitarioplay.pe/terminos-y-condiciones"><p>Términos de Uso</p></a>
+                <a href="cookies.html" target="new"><p>Política de cookies</p></a>
+                <a href="faq.html" target="new"><p>Preguntas Frecuentes</p></a>
+                <a href="https://tiendacrema.pe/librodereclamaciones" target="new"><p>Libro de reclamaciones</p></a>
+            </div>
+            <div class="box2">
+                <figure><a href="https://universitario.pe/" target="new"><img src="img/Universitario_de_Deportes.png" height="60px" alt="universitario-footer"></a></figure> 
+            </div>
+            <div class="box3">
+                <p>SÍGUENOS</p>
+                <ul>
+                    <li><a href="https://www.facebook.com/universitarioplay" target="new"><img alt="logo-fb" src="img/fb.svg"></a></li>
+                    <li><a href="https://twitter.com/Uplay1924" target="new"><img alt="logo-tw" src="img/tw.svg"></a></li>
+                    <li><a href="https://www.instagram.com/uplay1924/" target="new"><img alt="logo-ig" src="img/ig.svg"></a> </li>
+                </ul>
+                </div>
+        </div>
+        <div class="grupo-2">
+            <small style="line-height: 25px;">Todos de los derechos reservados © 2021 | <b>Club Universitario de Deportes</b><br>
+            <i>Diseñado por @jpgalvezc</i></small>
+        </div>
+    </footer>
+</body>
+</html>
